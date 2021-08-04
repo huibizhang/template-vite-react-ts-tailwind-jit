@@ -1,6 +1,6 @@
-# template-vite-react-tailwind-jit
+# template-vite-react-ts-tailwind-jit
 
-- **template of:** vite + react
+- **template of:** vite + react + typescript
 - **tailwindcss:** v2.2.7
 
 ## Started
