@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from './logo.svg'
+import poweredBy from './powered-by-vitawind-dark.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,7 @@ function App() {
             }\
           "}
         </style>
-        <p className="text-3xl font-bold">Hello Vite + React + TypeScript + Tailwind jit!</p>
+        <p className="text-3xl font-bold">Vite + React + TypeScript + Tailwind jit!</p>
         <p className="mt-3">
           <button
             type="button"
@@ -46,6 +47,7 @@ function App() {
             Vite Docs
           </a>
         </p>
+        <img className="mx-auto my-8" alt="powered-by" src={poweredBy} />
       </header>
     </div>
   )
